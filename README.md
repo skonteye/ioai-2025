@@ -21,9 +21,7 @@ The [**2nd International Olympiad in Artificial Intelligence (IOAI 2025)**](http
 
 ---
 
-## Repository Structure
-
-### Individual Contest Tasks
+## Individual Contest Tasks
 
 | Task Folder | Statement | Training Data | Reference Solution | Validation Data | Test Data |
 |------|---------------------------------|---------------|--------------------|-----------------|-----------|
@@ -34,6 +32,12 @@ The [**2nd International Olympiad in Artificial Intelligence (IOAI 2025)**](http
 | [Task 5](Individual-Contest/Antique)| [Antique Painting Authentication](Individual-Contest/Antique/Antique.ipynb) | [Training Set](https://github.com/IOAI-official/IOAI-2025/tree/main/Individual-Contest/Antique/training_set) | [Solution](https://github.com/IOAI-official/IOAI-2025/blob/main/Individual-Contest/Antique/Solution/Antique_Solution.ipynb) | [Validation Set](https://github.com/IOAI-official/IOAI-2025/tree/main/Individual-Contest/Antique/Solution/validation_set) | [Test Set](https://github.com/IOAI-official/IOAI-2025/tree/main/Individual-Contest/Antique/Solution/test_set) |
 | [Task 6](Individual-Contest/Pixel)| [Pixel Efficiency](Individual-Contest/Pixel/Pixel.ipynb) | [Training Set](https://github.com/IOAI-official/IOAI-2025/tree/main/Individual-Contest/Pixel/training_set) | [Solution](https://github.com/IOAI-official/IOAI-2025/blob/main/Individual-Contest/Pixel/Solution/Pixel_Solution.ipynb) |  | [Test Set](https://github.com/IOAI-official/IOAI-2025/tree/main/Individual-Contest/Pixel/Solution/test_set) |
 ---
+
+## Translations of Individual Contest Tasks
+
+Translated versions of the Individual Contest task statements are available for [Day 1](https://github.com/IOAI-official/IOAI-2025/blob/main/Translations/Individual-Contest-Day1) and [Day 2](https://github.com/IOAI-official/IOAI-2025/blob/main/Translations/Individual-Contest-Day2).  
+
+These translations were optionally prepared by Team Leaders and provided to their contestants during the contest, alongside the official English version.
 
 ## License
 
