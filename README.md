@@ -34,7 +34,7 @@ After cloning this repository, run:
 
 ```bash
 pip install huggingface_hub
-python DownloadLargeData.py
+python utils/DownloadLargeData.py
 ```
 
 ## Translations of Individual Contest Tasks
