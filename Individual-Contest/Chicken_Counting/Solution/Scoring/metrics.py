@@ -2,7 +2,7 @@ import numpy as np
 import logging
 import math
 import json
-from datasets import load_from_disk
+from datasets import load_dataset
 import os
 
 # Function to configure logging levels
@@ -114,7 +114,7 @@ def evaluate_predictions(predictions_np, targets_np):
     return score
 
 
-def safe_test(preds, test_path, expected_shape):
+def safe_test(preds, tag, expected_shape):
     """
     Safely run the test with comprehensive error handling.
     """
@@ -130,7 +130,12 @@ def safe_test(preds, test_path, expected_shape):
             return None, values_error
         
         # Load target dataset
-        test_dataset = load_from_disk(test_path)
+        
+
+# 从 Hugging Face 加载数据集
+        test_dataset = load_dataset("ioaihsc/Task2_Chicken_Counting_LABEL", 
+                            data_dir="valandtest",
+                            split=tag)  # 明确指定使用训练
         
         # Extract density data directly as numpy arrays without torch
         targets = []
@@ -241,11 +246,11 @@ if __name__ == '__main__':
                     logging = logging_level('info')
                     
                     # Test both predictions with error handling
-                    score_a, error_a = safe_test(pred_a, testA_path, (1, 180, 320))
+                    score_a, error_a = safe_test(pred_a, 'test', (1, 180, 320))
                     if error_a:
                         ret_json = create_error_response(f"Error in test A evaluation: {error_a}")
                     else:
-                        score_b, error_b = safe_test(pred_b, testB_path, (1, 180, 320))
+                        score_b, error_b = safe_test(pred_b, 'validation', (1, 180, 320))
                         if error_b:
                             ret_json = create_error_response(f"Error in test B evaluation: {error_b}")
                         else:
