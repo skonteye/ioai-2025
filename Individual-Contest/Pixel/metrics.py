@@ -16,7 +16,7 @@ import matplotlib.pyplot as plt
 
 H, W = 224, 224
 MODEL_PATH = "openai/clip-vit-large-patch14"
-DATASET_PATH = "noctuashap/IOAI-2025-Pixel-ref"
+DATASET_PATH = "IOAI-official/IOAI-2025-Pixel-ref"
 MASK_PATH = "submission.jsonl"
 SPLIT = "ref"
 DEVICE = "cuda" if torch.cuda.is_available() else "cpu"
