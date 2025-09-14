@@ -69,9 +69,7 @@ def ndcg_at_10(predictions, correct_answer):
 #     return predictions
 
 def get_predictions(clues, options):
-    guesser_response = guess(clues, options)
-    predictions = [p.lower() for p in guesser_response["guesses"]]
-    return predictions
+    return guess(clues, options)
 
 async def evaluate(clues, testset, test_len, test_name):
     # Validate all inputs first

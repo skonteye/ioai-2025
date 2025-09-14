@@ -6,23 +6,23 @@
 Usage:
     from judge_api import guess
     
-    guesses = await guess([[1, 2, 3]], options=["cat", "dog", "house"])
+    guesses = guess([[1, 2, 3]], options=["cat", "dog", "house"])
 """
 
 from typing import List, Optional
 from datasets import load_dataset
 
-from openai import AsyncOpenAI
+from openai import OpenAI
 from pydantic import BaseModel, Field
 
 # ---------------------------------------------------------------------------
 # Configuration - UPDATE THESE VALUES
 # ---------------------------------------------------------------------------
-API_KEY = "put-your-openrouter-api-key-here"  # Put your OpenRouter API key here
+API_KEY = "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"  # Put your OpenRouter API key here
 BASE_URL = "https://openrouter.ai/api/v1"
 MODEL = "google/gemini-2.5-flash-lite-preview-06-17"
 
-_client = AsyncOpenAI(api_key=API_KEY, base_url=BASE_URL)
+_client = OpenAI(api_key=API_KEY, base_url=BASE_URL)
 
 # ---------------------------------------------------------------------------
 # Load hint descriptions from Hugging Face dataset
@@ -44,7 +44,7 @@ class GuessResponse(BaseModel):
     reason: str = Field(description="Reasoning for the guesses")
     answer: List[str] = Field(description="List of guessed keywords")
 
-async def guess(clues: List[List[int]], options: Optional[List[str]] = None, N: int = 10) -> List[str]:
+def guess(clues: List[List[int]], options: Optional[List[str]] = None, N: int = 10) -> List[str]:
     """Generate guesses for a Concepts game based on clues.
     
     Args:
@@ -75,7 +75,7 @@ async def guess(clues: List[List[int]], options: Optional[List[str]] = None, N: 
 Now, provide {N} guesses of the secret keyword. Explain your reasoning process and provide exactly {N} guesses."""
 
     # Make API call
-    response = await _client.beta.chat.completions.parse(
+    response = _client.beta.chat.completions.parse(
         model=MODEL,
         messages=[
             {"role": "system", "content": "You are a helpful assistant playing a Concepts guessing game."},
