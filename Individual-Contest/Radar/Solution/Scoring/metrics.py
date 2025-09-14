@@ -75,8 +75,8 @@ def main():
     test_csv_path = METRIC_PATH + 'submission_test.csv'
     
     # Paths for ground truth CSV files
-    val_gt_csv_path = 'ground_truth_val.csv'
-    test_gt_csv_path = 'ground_truth_test.csv'
+    val_gt_csv_path = 'solution/scoring/ground_truth_val.csv'
+    test_gt_csv_path = 'solution/scoring/ground_truth_test.csv'
     
     # Load ground truth for validation set from CSV
     val_ground_truth = load_ground_truth_from_csv(val_gt_csv_path)
