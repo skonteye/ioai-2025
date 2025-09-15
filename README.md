@@ -17,7 +17,7 @@ The [**2nd International Olympiad in Artificial Intelligence (IOAI 2025)**](http
 
 ## Individual Contest Tasks
 
-| Task Folder | Statement | Reference Solution |
+| Task Folder | Task Statement | Reference Solution |
 |-------------|-----------|------------------|
 | [Task 1](Individual-Contest/Radar) | [Radar](Individual-Contest/Radar/Radar.ipynb) | [Solution](Individual-Contest/Radar/Solution/Radar_Solution.ipynb) |
 | [Task 2](Individual-Contest/Chicken_Counting) | [Chicken Counting](Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb) | [Solution](Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb) |
