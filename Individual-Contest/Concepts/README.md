@@ -6,6 +6,7 @@ This folder contains resources for the Concepts task (day 1, task 3) in IOAI 202
 
 - [`Concepts.ipynb`](Concepts.ipynb): The baseline notebook, including the problem statement.
 - [`Concepts_Solution.ipynb`](Concepts_Solution.ipynb): The official intended solution notebook from the ISC and HSC.
+- [`judge_api.py`](judge_api.py): This scripts simulates the judge api accessible to contestants during the competition. You need an openrouter token to run use this script.
 - [`metrics.py`](metrics.py): The evaluation script.
 - [`llm_proxy_tutorial.ipynb`](llm_proxy_tutorial.ipynb): During the competition the contestants were allowed to access LLMs for this problem only using a custom proxy and custom api keys. This was the tutorial notebook for using the custom LLM proxy. We are keeping this tutorial notebook here to inform you that you are allowed and encouraged to use LLMs to assist in solving this problem, with limitations outlined in the tutorial notebook.
 
