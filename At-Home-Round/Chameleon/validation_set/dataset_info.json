@@ -1,0 +1,62 @@
+{
+  "builder_name": "parquet",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "ioai-concept-take-home-isc",
+  "dataset_size": 211497,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/afaji/ioai-concept-take-home-isc@ce5535dab023c0bb4b1579a4dcc7e519103d29af/data/validation-00000-of-00001.parquet": {
+      "num_bytes": 10061,
+      "checksum": null
+    },
+    "hf://datasets/afaji/ioai-concept-take-home-isc@ce5535dab023c0bb4b1579a4dcc7e519103d29af/data/test-00000-of-00001.parquet": {
+      "num_bytes": 50127,
+      "checksum": null
+    }
+  },
+  "download_size": 60188,
+  "features": {
+    "hints": {
+      "feature": {
+        "dtype": "int64",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "options": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 271685,
+  "splits": {
+    "validation": {
+      "name": "validation",
+      "num_bytes": 23350,
+      "num_examples": 20,
+      "dataset_name": "ioai-concept-take-home-isc"
+    },
+    "test": {
+      "name": "test",
+      "num_bytes": 188147,
+      "num_examples": 158,
+      "dataset_name": "ioai-concept-take-home-isc"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
