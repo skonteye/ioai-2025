@@ -1,5 +1,7 @@
 # International Olympiad in Artificial Intelligence (IOAI 2025, Beijing, China)
 
+> Language: **English** | [**Francais**](README.fr.md)
+
 ## About IOAI 2025
 
 The [**2nd International Olympiad in Artificial Intelligence (IOAI 2025)**](https://ioai-official.org/china-2025/) took place in **Beijing, China**, from **August 2 to 9, 2025**, hosted by **Beijing National Day School (BNDS)** under the patronage of **UNESCO**.
