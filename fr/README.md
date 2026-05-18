@@ -4,11 +4,11 @@ Cette arborescence `fr/` est destinee a devenir la version francaise miroir du d
 
 ## Etat reel de la traduction
 
-La traduction haute fidelite des notebooks IOAI 2025 n'est pas encore terminee. Les chemins ci-dessous sont la cible du miroir `fr/`, mais les notebooks ne doivent etre consideres comme disponibles qu'une fois crees et verifies cellule par cellule contre les originaux.
+La traduction haute fidelite des notebooks IOAI 2025 est en cours. Les chemins ci-dessous sont la cible du miroir `fr/`, et une tache n'est marquee comme verifiee qu'une fois ses notebooks crees puis compares contre les originaux.
 
-| Tache | Notebook cible | Solution cible | Etat |
+| Tache | Notebook francais | Solution francaise | Etat |
 |---|---|---|---|
-| Tache 1 | [Radar](Individual-Contest/Radar/Radar.ipynb) | `Individual-Contest/Radar/Solution/Radar_Solution.ipynb` | En cours : enonce cree, solution a traduire |
+| Tache 1 | [Radar](Individual-Contest/Radar/Radar.ipynb) | [Solution](Individual-Contest/Radar/Solution/Radar_Solution.ipynb) | Verifie |
 | Tache 2 | `Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb` | `Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb` | A traduire |
 | Tache 3 | `Individual-Contest/Concepts/Concepts.ipynb` | `Individual-Contest/Concepts/Concepts_Solution.ipynb` | A traduire |
 | Tache 4 | `Individual-Contest/Restroom/Restroom.ipynb` | `Individual-Contest/Restroom/Solution/Restroom_Solution.ipynb` | A traduire |
