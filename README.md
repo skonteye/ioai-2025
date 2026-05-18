@@ -1,6 +1,6 @@
 # International Olympiad in Artificial Intelligence (IOAI 2025, Beijing, China)
 
-> Language: **English** | [**Francais**](README.fr.md)
+> Language: **English** | [**Francais**](fr/README.md)
 
 ## About IOAI 2025
 
