@@ -19,9 +19,9 @@ La [**2eme Olympiade internationale d'intelligence artificielle (IOAI 2025)**](h
 |---|---|
 | [Concours individuel](Individual-Contest) | Verifie (6 taches, enonces + solutions) |
 | [Concours GAITE](GAITE-Contest) | Verifie (taches 4 et 5, descriptions + notebooks baseline et solution) |
+| [Manche a domicile (At-Home-Round)](At-Home-Round) | Verifie (3 sujets, enonces + solutions) |
 | Concours par equipe (Future Factory) | Hors perimetre : pas de contenu human-facing dans le depot source |
 | `Translations/` (traductions par equipes nationales) | Hors perimetre : artefacts de traduction existants vers d'autres langues, non re-traduits |
-| `At-Home-Round/` (manche d'entrainement a domicile) | A traduire (voir section dediee ci-dessous) |
 
 ## Concours individuel
 
@@ -52,13 +52,13 @@ Le concours GAITE est une variante simplifiee du concours individuel, avec indic
 
 ## Manche a domicile (At-Home-Round)
 
-Cette manche d'entrainement comprend trois sujets (Chameleon, Radar, Weather), chacun avec un notebook enonce et un notebook solution. **Ces notebooks ne sont pas encore traduits.** Ils sont disponibles dans la version anglaise sous [`../At-Home-Round/`](../At-Home-Round/).
+Cette manche d'entrainement comprend trois sujets (Chameleon, Radar, Weather), chacun avec un notebook enonce et un notebook solution. Tous sont traduits et verifies.
 
-| Sujet | Enonce anglais | Solution anglaise | Statut francais |
-|---|---|---|---|
-| Chameleon | [Chameleon.ipynb](../At-Home-Round/Chameleon/Chameleon.ipynb) | [Chameleon_Solution.ipynb](../At-Home-Round/Chameleon/Chameleon_Solution.ipynb) | A traduire |
-| Radar (manche a domicile) | [Radar.ipynb](../At-Home-Round/Radar/Radar.ipynb) | [Radar_Solution.ipynb](../At-Home-Round/Radar/Radar_Solution.ipynb) | A traduire |
-| Weather | [Weather.ipynb](../At-Home-Round/Weather/Weather.ipynb) | [Weather_Solution.ipynb](../At-Home-Round/Weather/Weather_Solution.ipynb) | A traduire |
+| Sujet | Enonce francais | Solution francaise |
+|---|---|---|
+| Chameleon | [Chameleon.ipynb](At-Home-Round/Chameleon/Chameleon.ipynb) | [Chameleon_Solution.ipynb](At-Home-Round/Chameleon/Chameleon_Solution.ipynb) |
+| Radar (manche a domicile) | [Radar.ipynb](At-Home-Round/Radar/Radar.ipynb) | [Radar_Solution.ipynb](At-Home-Round/Radar/Radar_Solution.ipynb) |
+| Weather | [Weather.ipynb](At-Home-Round/Weather/Weather.ipynb) | [Weather_Solution.ipynb](At-Home-Round/Weather/Weather_Solution.ipynb) |
 
 ## Traductions par equipes nationales
 
