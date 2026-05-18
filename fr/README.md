@@ -1,16 +1,20 @@
 # Parcours francais IOAI 2025
 
-Cette arborescence `fr/` est la version francaise miroir du depot. L'objectif est qu'un eleve francophone puisse suivre les taches avec le meme niveau de comprehension que dans la version anglaise.
+Cette arborescence `fr/` est destinee a devenir la version francaise miroir du depot. L'objectif est qu'un eleve francophone puisse suivre les taches avec le meme niveau de comprehension que dans la version anglaise.
 
-## Concours individuel
+## Etat reel de la traduction
 
-| Tache | Enonce francais | Solution francaise |
-|---|---|---|
-| Tache 1 | [Radar](Individual-Contest/Radar/Radar.ipynb) | [Solution](Individual-Contest/Radar/Solution/Radar_Solution.ipynb) |
-| Tache 2 | [Comptage de poulets](Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb) | [Solution](Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb) |
-| Tache 3 | [Concepts](Individual-Contest/Concepts/Concepts.ipynb) | [Solution](Individual-Contest/Concepts/Concepts_Solution.ipynb) |
-| Tache 4 | [Appariement d'icones de sanitaires](Individual-Contest/Restroom/Restroom.ipynb) | [Solution](Individual-Contest/Restroom/Solution/Restroom_Solution.ipynb) |
-| Tache 5 | [Authentification de peinture ancienne](Individual-Contest/Antique/Antique.ipynb) | [Solution](Individual-Contest/Antique/Solution/Antique_Solution.ipynb) |
-| Tache 6 | [Efficacite Pixel](Individual-Contest/Pixel/Pixel.ipynb) | [Solution](Individual-Contest/Pixel/Pixel_Solution.ipynb) |
+La traduction haute fidelite des notebooks IOAI 2025 n'est pas encore terminee. Les chemins ci-dessous sont la cible du miroir `fr/`, mais les notebooks ne doivent etre consideres comme disponibles qu'une fois crees et verifies cellule par cellule contre les originaux.
 
-> Les notebooks francais doivent conserver la meme structure, le meme code executable et les memes donnees que la version originale, avec les cellules Markdown, commentaires et instructions traduits en francais.
+| Tache | Notebook cible | Solution cible | Etat |
+|---|---|---|---|
+| Tache 1 | `Individual-Contest/Radar/Radar.ipynb` | `Individual-Contest/Radar/Solution/Radar_Solution.ipynb` | A traduire |
+| Tache 2 | `Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb` | `Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb` | A traduire |
+| Tache 3 | `Individual-Contest/Concepts/Concepts.ipynb` | `Individual-Contest/Concepts/Concepts_Solution.ipynb` | A traduire |
+| Tache 4 | `Individual-Contest/Restroom/Restroom.ipynb` | `Individual-Contest/Restroom/Solution/Restroom_Solution.ipynb` | A traduire |
+| Tache 5 | `Individual-Contest/Antique/Antique.ipynb` | `Individual-Contest/Antique/Solution/Antique_Solution.ipynb` | A traduire |
+| Tache 6 | `Individual-Contest/Pixel/Pixel.ipynb` | `Individual-Contest/Pixel/Pixel_Solution.ipynb` | A traduire |
+
+## Regle de fidelite
+
+Les notebooks francais doivent conserver la meme structure, le meme ordre de cellules, le meme code executable, les memes donnees et les memes sorties attendues que la version originale. Seules les cellules Markdown, les commentaires et les instructions destinees aux lecteurs doivent etre traduits en francais, avec verification explicite avant de marquer une tache comme terminee.
