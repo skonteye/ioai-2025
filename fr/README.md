@@ -8,7 +8,7 @@ La traduction haute fidelite des notebooks IOAI 2025 n'est pas encore terminee. 
 
 | Tache | Notebook cible | Solution cible | Etat |
 |---|---|---|---|
-| Tache 1 | `Individual-Contest/Radar/Radar.ipynb` | `Individual-Contest/Radar/Solution/Radar_Solution.ipynb` | A traduire |
+| Tache 1 | [Radar](Individual-Contest/Radar/Radar.ipynb) | `Individual-Contest/Radar/Solution/Radar_Solution.ipynb` | En cours : enonce cree, solution a traduire |
 | Tache 2 | `Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb` | `Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb` | A traduire |
 | Tache 3 | `Individual-Contest/Concepts/Concepts.ipynb` | `Individual-Contest/Concepts/Concepts_Solution.ipynb` | A traduire |
 | Tache 4 | `Individual-Contest/Restroom/Restroom.ipynb` | `Individual-Contest/Restroom/Solution/Restroom_Solution.ipynb` | A traduire |
