@@ -9,7 +9,7 @@ La traduction haute fidelite des notebooks IOAI 2025 est en cours. Les chemins c
 | Tache | Notebook francais | Solution francaise | Etat |
 |---|---|---|---|
 | Tache 1 | [Radar](Individual-Contest/Radar/Radar.ipynb) | [Solution](Individual-Contest/Radar/Solution/Radar_Solution.ipynb) | Verifie |
-| Tache 2 | [Comptage de poulets](Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb) | `Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb` | En cours : enonce cree, solution a traduire |
+| Tache 2 | [Comptage de poulets](Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb) | [Solution](Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb) | Verifie |
 | Tache 3 | `Individual-Contest/Concepts/Concepts.ipynb` | `Individual-Contest/Concepts/Concepts_Solution.ipynb` | A traduire |
 | Tache 4 | `Individual-Contest/Restroom/Restroom.ipynb` | `Individual-Contest/Restroom/Solution/Restroom_Solution.ipynb` | A traduire |
 | Tache 5 | `Individual-Contest/Antique/Antique.ipynb` | `Individual-Contest/Antique/Solution/Antique_Solution.ipynb` | A traduire |
