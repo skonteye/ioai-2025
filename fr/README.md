@@ -10,7 +10,7 @@ La traduction haute fidelite des notebooks IOAI 2025 est en cours. Les chemins c
 |---|---|---|---|
 | Tache 1 | [Radar](Individual-Contest/Radar/Radar.ipynb) | [Solution](Individual-Contest/Radar/Solution/Radar_Solution.ipynb) | Verifie |
 | Tache 2 | [Comptage de poulets](Individual-Contest/Chicken_Counting/Chicken_Counting.ipynb) | [Solution](Individual-Contest/Chicken_Counting/Chicken_Counting_Solution.ipynb) | Verifie |
-| Tache 3 | `Individual-Contest/Concepts/Concepts.ipynb` | `Individual-Contest/Concepts/Concepts_Solution.ipynb` | En cours : [guide francais de l'enonce](Individual-Contest/Concepts/README.md) cree, notebooks encore a traduire |
+| Tache 3 | [Concepts - brouillon partiel](Individual-Contest/Concepts/Concepts.ipynb) | `Individual-Contest/Concepts/Concepts_Solution.ipynb` | En cours : enonce traduit, notebook encore incomplet, solution a traduire |
 | Tache 4 | `Individual-Contest/Restroom/Restroom.ipynb` | `Individual-Contest/Restroom/Solution/Restroom_Solution.ipynb` | A traduire |
 | Tache 5 | `Individual-Contest/Antique/Antique.ipynb` | `Individual-Contest/Antique/Solution/Antique_Solution.ipynb` | A traduire |
 | Tache 6 | `Individual-Contest/Pixel/Pixel.ipynb` | `Individual-Contest/Pixel/Pixel_Solution.ipynb` | A traduire |
